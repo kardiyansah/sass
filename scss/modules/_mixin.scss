@@ -1,0 +1,28 @@
+@mixin inline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    padding: 5px;
+    background-color: #333;
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@mixin flex-box(
+  $direction: row,
+  $justify  : center,
+  $align    : center,
+  $gap      : 0
+) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  gap: $gap;
+}

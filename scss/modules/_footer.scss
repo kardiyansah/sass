@@ -1,0 +1,10 @@
+// Given alias to mixin
+@use 'mixin' as mxn;
+
+footer ul {
+  @include mxn.inline-list();
+  
+  a {
+    color: purple;
+  }
+}

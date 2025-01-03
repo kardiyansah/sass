@@ -1,0 +1,17 @@
+.container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 5px;
+  width: 600px;
+  height: 500px;
+  background-color: blueviolet;
+}
+.container-box .box {
+  width: 80px;
+  height: 80px;
+  background-color: limegreen;
+  text-align: center;
+  line-height: 80px;
+}/*# sourceMappingURL=mixin.css.map */

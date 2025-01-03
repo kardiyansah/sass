@@ -1,0 +1,17 @@
+// Import
+
+// @import 'modules/mixin';
+// @import 'modules/header';
+// @import 'modules/main';
+// @import 'modules/footer';
+
+// @import 'modules/mixin',
+//         'modules/header',
+//         'modules/main',
+//         'modules/footer';
+
+
+// Use
+@use 'modules/header';
+@use 'modules/main';
+@use 'modules/footer';

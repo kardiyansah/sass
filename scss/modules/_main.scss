@@ -1,0 +1,17 @@
+// Given alias to mixin
+@use 'mixin' as mxn;
+
+.container-box {
+  @include mxn.flex-box($gap: 5px, $direction: column, $justify: space-evenly);
+  width: 600px;
+  height: 500px;
+  background-color: blueviolet;
+
+  .box {
+    width: 80px;
+    height: 80px;
+    background-color: limegreen;
+    text-align: center;
+    line-height: 80px;
+  }
+}

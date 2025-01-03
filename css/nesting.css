@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200vh;
+  text-align: center;
+}
+
+footer .footer-heading {
+  color: antiquewhite;
+}
+footer .footer-paragraph {
+  color: purple;
+}/*# sourceMappingURL=nesting.css.map */

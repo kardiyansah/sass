@@ -1,0 +1,99 @@
+body {
+  height: 200vh;
+}
+
+.square-profile {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #333;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #333;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #555;
+  color: #ddd;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-top-color: #333;
+}
+
+.gradient {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.gradient li:nth-child(1) {
+  padding: 5px;
+  background-color: #8f008f;
+}
+.gradient li:nth-child(2) {
+  padding: 5px;
+  background-color: #9f009f;
+}
+.gradient li:nth-child(3) {
+  padding: 5px;
+  background-color: #ae00ae;
+}
+.gradient li:nth-child(4) {
+  padding: 5px;
+  background-color: #bd00bd;
+}
+.gradient li:nth-child(5) {
+  padding: 5px;
+  background-color: #cd00cd;
+}
+.gradient li:nth-child(6) {
+  padding: 5px;
+  background-color: #dc00dc;
+}
+.gradient li:nth-child(7) {
+  padding: 5px;
+  background-color: #eb00eb;
+}
+.gradient li:nth-child(8) {
+  padding: 5px;
+  background-color: #fa00fa;
+}
+.gradient li:nth-child(9) {
+  padding: 5px;
+  background-color: #ff0bff;
+}
+.gradient li:nth-child(10) {
+  padding: 5px;
+  background-color: #ff1aff;
+}
+
+.socials {
+  font-size: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.socials .youtube {
+  color: rgba(255, 0, 0, 0.651);
+}
+.socials .facebook {
+  color: rgba(40, 40, 179, 0.781);
+}
+.socials .twitter {
+  color: lightblue;
+}
+.socials .instagram {
+  color: rgb(180, 117, 0);
+}
+.socials .discord {
+  color: purple;
+}/*# sourceMappingURL=control-flow.css.map */

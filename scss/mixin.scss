@@ -1,0 +1,74 @@
+// header, footer {
+//   ul {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+
+//     li {
+//       display: inline-block;
+//     }
+//   }
+// }
+
+// Mixin
+// Simple mixin
+// @mixin inline-list {
+//   list-style: none;
+//   margin: 0;
+//   padding: 0;
+
+//   li {
+//     padding: 5px;
+//     background-color: #333;
+//     display: inline-block;
+//   }
+
+//   a {
+//     text-decoration: none;
+//   }
+// }
+
+// header ul {
+//   @include inline-list();
+  
+//   a {
+//     color: yellowgreen;
+//   }
+// }
+
+// footer ul {
+//   @include inline-list();
+  
+//   a {
+//     color: purple;
+//   }
+// }
+
+// Arguments on mixin
+@mixin flex-box(
+  $direction: row,
+  $justify  : center,
+  $align    : center,
+  $gap      : 0
+) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  gap: $gap;
+}
+
+.container-box {
+  @include flex-box($gap: 5px, $direction: column, $justify: space-between, $align: flex-end);
+  width: 600px;
+  height: 500px;
+  background-color: blueviolet;
+
+  .box {
+    width: 80px;
+    height: 80px;
+    background-color: limegreen;
+    text-align: center;
+    line-height: 80px;
+  }
+}

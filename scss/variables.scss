@@ -1,0 +1,53 @@
+// CSS Variables
+// :root {
+//   --primary-color: blue;
+//   --secondary-color: limegreen;
+//   --text-color: #333;
+// }
+
+// body {
+//   background-color: var(--primary-color);
+//   color: var(--text-color);
+// }
+
+// header {
+//   h1 {
+//     color: var(--secondary-color);
+//   }
+// }
+
+
+// SASS Variables
+// Variables SASS memiliki scope
+// Global variables
+// $secondary-color: violet;
+// $text-color: #eaeaea;
+
+// body {
+//   // Local variable
+//   $base-color: blueviolet;
+
+//   // Change local variable to global variable
+//   $default-color: yellow !global;
+//   background-color: $base-color;
+// }
+
+// header {
+//   h1 {
+//     color: $default-color;
+//   }
+// }
+
+
+// Map
+$alert: (
+  'success': green,
+  'danger' : red,
+  'warning': yellow
+);
+
+header {
+  h1 {
+    color: map-get($map: $alert, $key: 'danger');
+  }
+}

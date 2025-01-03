@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200vh;
+  text-align: center;
+}
+
+// .main {
+//   padding: 10px 20px;
+//   background-color: blueviolet;
+
+//   .main-heading {
+//     font-size: 2.5em;
+//   }
+
+//   .main-paragraph {
+//     font-size: 2em;
+//   }
+// }
+
+
+// .main, footer {
+//   h1, p {
+//     letter-spacing: 3px;
+//     font-size: 1.5em;
+//   }
+// }
+
+
+// & = Parent Selector
+// .main {
+//   transition: 1s;
+
+//   .container & {
+//     background-color: aqua;
+//   }
+
+//   &:hover {
+//     background-color: complement(aqua);
+//   }
+
+//   &-heading {
+//     color: orangered;
+//   }
+  
+//   &:hover &-heading {
+//     color: lightblue;
+//   }
+// }
+
+// interpolation pada SASS
+footer {
+  .#{&}-heading {
+    color: antiquewhite;
+  }
+
+  .#{&}-paragraph {
+    color: purple;
+  }
+}

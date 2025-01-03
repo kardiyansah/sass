@@ -1,0 +1,45 @@
+// Built-in Modules for color
+$base-color: violet;
+
+h1 {
+  // color: $base-color;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.6em;
+  text-align: center;
+
+  // adjust-color
+  // color: adjust-color(
+  //   $color: $base-color,
+  //   $red: -20,
+  //   $green: 0,
+  //   $blue: 10,
+  //   $hue: 1,
+  //   $saturation: 1%,
+  //   $lightness: 1%,
+  //   $alpha: 1
+  // );
+
+  // adjust-hue
+  // color: adjust-hue($color: $base-color, $degrees: 90deg);
+
+  // complement
+  // color: complement($color: cyan);
+
+  // darken and lighten
+  // color: darken($color: #fff, $amount: 80%);
+  // color: lighten($color: $base-color, $amount: 8%);
+
+  // saturate and desaturate
+  // color: saturate($color: $base-color, $amount: 20%);
+  // color: desaturate($color: $base-color, $amount: 10%);
+
+  // grayscale
+  // color: grayscale($color: $base-color);
+
+  // mix
+  // color: mix(#fff, #000, 20%);
+
+  // fade-in and fade-out
+  // color: fade-in($color: #000000, $amount: 0.1);
+  // color: fade-out($color: #000000, $amount: 0.7);
+}
